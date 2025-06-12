@@ -1,1 +1,28 @@
+name: shree_shrigoud_vanshavali
+description: वंशावली, संस्कार, लेन-देन और अपॉइंटमेंट ऐप
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.15
+  flutter_local_notifications: ^14.0.0
+  syncfusion_flutter_pdf: ^24.1.41
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
 
